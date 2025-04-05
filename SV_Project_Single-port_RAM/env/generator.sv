@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//Project	    : Single-port RAM Verification
+//File name	    : generator.sv
+//Description	: Generator class
+//Created by	: Kaushal Patel
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// RAM generator class
+
+`ifndef RAM_GENERATOR
+`define RAM_GENERATOR
+
+virtual class generator;
+  transaction trans;
+  pure virtual task main(); 
+endclass
+
+`endif
